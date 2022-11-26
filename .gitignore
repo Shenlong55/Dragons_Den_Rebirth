@@ -1,0 +1,14 @@
+/cache
+/libraries
+/logs
+/plugins/bstats
+/versions
+/worlds
+/.console_history
+/banned-ips.json
+/banned-players.json
+/eula.txt
+/ops.json
+/usercache.json
+/version_history.json
+/whitelist.json
