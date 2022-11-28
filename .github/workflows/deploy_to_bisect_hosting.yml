@@ -1,0 +1,18 @@
+on:
+  schedule:
+    - cron:  '35 8 * * *'
+  workflow_dispatch:
+name: Publish Server
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@main
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: 192.227.173.130
+        FTP_USERNAME: shenlong55.50052
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        ARGS: --exclude-glob=.git*/** --exclude-glob=.git** --exclude-glob=*.bat
