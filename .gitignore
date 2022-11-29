@@ -9,6 +9,9 @@
 /banned-players.json
 /eula.txt
 /ops.json
+/plugins/OpenAudioMc/data.yml
+/plugins/OpenAudioMc/modules/migrate.map-to-storm.jar
+/plugins/OpenAudioMc/storm.db
 /usercache.json
 /version_history.json
 /whitelist.json
