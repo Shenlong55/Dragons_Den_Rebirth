@@ -2,6 +2,9 @@
 /libraries
 /logs
 /plugins/bstats
+/plugins/Geyser-Spigot/cache
+/plugins/Geyser-Spigot/locales
+/plugins/voicechat/translations.yml
 /versions
 /worlds
 /.console_history
