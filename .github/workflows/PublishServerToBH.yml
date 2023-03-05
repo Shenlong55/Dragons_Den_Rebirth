@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@bhserver
+      uses: actions/checkout@v3
+      with:
+        ref: bhserver
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
