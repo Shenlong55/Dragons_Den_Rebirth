@@ -1,0 +1,18 @@
+on:
+  schedule:
+    - cron:  '35 8 * * *'
+  workflow_dispatch:
+name: 🚀 Publish Server to Bisect Hosting
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@bhserver
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: 192.227.173.130
+        username: shenlong55.50052
+        password: ${{ secrets.ftp_password }}
