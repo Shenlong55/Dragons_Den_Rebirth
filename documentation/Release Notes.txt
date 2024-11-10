@@ -1,0 +1,279 @@
+v0.5.0 - *Final Phase I Release*
+- Changed BetterEnderChest config to change how you open the public ender chest and reduce starting slots (config.yml).
+- Changed CommandHelper aliases to set parcels as subplots of your homeland (aliases.msa).
+- Changed Craftbook config to enable command items and pipes (config.yml, command-items.yml).
+- Changed entity-activation-range:monsters from 12 to 24 (spigot.yml).
+- Changed ExtraHardMode config to disable armor weight swimming mechanice (config.yml).
+- Changed moved-too-quickly-multiplier from 13 to 14 (spigot.yml).
+- Changed moved-wrongly-threshold from 0.0825 to 0.1000 (spigot.yml).
+- Changed PermissionsGroupings.yml for new plugins and permissions update.
+- Changed Zenchantments config to disable Gluttony enchantment (Krynn.yml, Krynn_nether.yml, Krynn_the_end.yml).
+- Changed ZHorse config for permissions update (config.yml).
+- Fixed Bug #006 "Water Bottle Stacking Bug".
+-- Changed Thirst config to disable water bottle stacking.
+-- Installed StackableItems v1.0.5.
+- Fixed Bug #030 "Allow Items to Drop If Inventory Full".
+- Fixed Bug #051 "Wolf Kills Don't Give Items".
+-- Installed AutoPickup v5.0.3.
+-- Removed Auto_Pickup.
+- Fixed Bug #032 "Llamas Not Following Pack Correctly".
+-- Changed entity-activation-range:animals from 6 to 24 (spigot.yml).
+- Fixed Bug #040 "ArmorStandGUI Console Errors".
+-- Installed ArmorStandEditor v1.3.
+-- Removed ArmorStandGUI.
+- Fixed Bug #045 "FurnaceNotify Console Errors".
+-- Downgraded FurnaceNotify to v11.0.
+- Fixed Bug #049 "WARN handleDisconnection() called twice".
+-- Changed ChatControl console filter to block message (settings.yml).
+- Fixed Bug #057 "'Player just tried to change a non-editable sign' Error"
+-- Installed Padlock v2.1.2.
+-- Removed Lockette.
+- Fixed Bug #060 "Players Getting Kicked for Floating Too Long".
+-- Changed allow-flight to true (server.properties).
+- Installed BetterFood v0.0.2.
+- Installed MeltItems v1.4.1.
+- Installed OutComeTheWolves b20150121.
+- Installed RealisticSwimming v1.19.2.
+- Installed VillageInfo v6.0.
+- Removed CommandBook (No longer being maintained).
+- Removed NotchApple (Replaced with custom recipe).
+- Removed worlds section from bukkit.yml (TerrainControl removal).
+- Removed TerrainControl (No longer being maintained).
+- Updated ActionHealth to v3.2.6.
+- Updated AutoCrafters to v1.6.0.
+- Updated BetterEnderChest to v2.5.2.
+- Updated BetterFood to v1.0.0.
+- Updated CommandHelper to v3.3.2_b3429.
+- Updated ChatControl to v7.9.19.
+- Updated ChatItem to v1.3.6.4.
+- Updated CraftBook to v4.0_b4440.
+- Updated Disease to v3.0.1.
+- Updated Dynmap to v3.0_beta_2.
+- Updated EditableSign to v4.2.0.
+- Updated FurnaceNotify to v12.0.
+- Updated HolographicDisplays to v2.3.0.
+- Updated LightAPI to v3.2.7.
+- Updated Padlock to v2.1.2.
+- Updated PetMaster to v1.8.3.
+- Updated PickUpArrows to v4.0.0.
+- Updated ProtocolLib to v4.3.0_b415.
+- Updated ShinyItems to v1.6.3.
+- Updated SmokingPipes to v1.4.1.
+- Updated SteamBaths to v1.21.
+- Updated SuperVanish to v6.0.5.
+- Updated Thirst to v2.8.3.
+- Updated Worldedit to v7.0.0_b3860.
+- Updated WorldEditSelectionVisualizer to v1.5.1.
+- Updated WorldGuard to v7.0.0_b1744.
+- Updated WorldGuardExtraFlag to v4.0.0.
+- Updated ZHorse to v1.7.1.
+
+
+
+v0.4.1 - Bug fix
+- Changed BetterBeds messages to go to everyone on the same world (plugins/BetterBeds/config.yml).
+- Changed /channelswitch command to improve functionality (plugins/CommandHelper/aliases.msa).
+- Changed ExtraHardMode animal overcrowding threshold from 10 to 12 (plugins/ExtraHardMode/configs.yml)
+- Changed /homeland command to account for some errors (plugins/CommandHelper/aliases.msa).
+- Changed WorldEdit wand to a Golden Axe (plugins/WorldEdit/config.yml).
+- Cleaning up the console (plugins/ChatControl/settings.yml).
+- Disabled FurnaceNotify.
+- Fixed Harvest not working (PermissionsGroupings.yml & plugins/Harvest/config.yml).
+- Reset player regions (plugins/WorldGuard/worlds/Krynn/regions.yml).
+v0.4.0 - Chat Update/MC Version Update
+- Changed Commandbook config to disable stored messages, enable kits and added an admin kit.
+- Changed CraftBook config to utilize WorldGuard.
+- Changed Disease config to utilize WorldGuard.
+- Changed ExtraHardMode config (config.yml and messages.yml).
+- Changed PermissionsGroupings.yml for new plugins.
+- Changed resource pack to DokuCraft Dwarven v1.12 (http://dokucraft.co.uk/resource-packs/dwarven).
+- Changed SavageDeathChest config for WorldGuard integration.
+- Changed spawn-limits in bukkit.yml.
+- Changed Thirst config to utilize WorldGuard and BarAPI.
+- Changed TerrainControl world generation.
+- Changed zPermissions data.yml to include new plugins.
+- Fixed "Water Sources Do Not Flow on Spawn"(#033) bug.
+- Installed AdvancedShulkerBoxes v0.4.
+- Installed Autocrafters v1.5.5.
+- Installed BarAPI v3.5.
+- Installed BetterBeds v0.6.1.
+- Installed BetterEnderChest v2.4.7.
+- Installed BetterHorseBreeding v1.0.
+- Installed ChatControl v7.6.13.
+- Installed ChatItem v1.3.5.6.
+- Installed CommandHelper v3.3.2_b3277.
+- Installed Dynmap-Worldguard v0.9.
+- Installed LibsDisguises v9.5.0_b173.
+- Installed Lockette v1.8.36.
+- Installed RealVillagerTowns v1.2.
+- Installed SmartGiants v2.3.9.
+- Installed SteamBaths v1.2.
+- Installed SuperVanish v5.10.1.
+- Installed TrashCan v1.0.
+- Installed Vault v1.5.6.
+- Installed WorldGuardExtraFlag v2.14.2.
+- Installed ZHorse v1.6.8.
+- Removed Bags.
+- Removed BO3Tools.
+- Removed BookRules.
+- Removed ConsoleSpamFix.
+- Removed FastCraft+.
+- Removed WindySkies.
+- Updated ActionHealth to v3.2.0.
+- Updated CraftBook to v3.9u19
+- Updated Disease to v2.7.3.
+- Updated Dynmap to v2.5.
+- Updated EditableSign to v3.2.0.
+- Updated ExtraHardMode to v3.12.1.
+- Updated FurnaceNotify to v12.0.
+- Updated Harvest to v1.2.7.
+- Updated HolographicDisplays to v2.2.6.
+- Updated LightAPI to v3.2.4_bd.
+- Updated PetMaster to v1.7.0.
+- Updated ProtocolLib to v4.3.0_b390.
+- Updated SavageDeathChest to v1.7.0-beta4.
+- Updated Tablist to v1.3.2.9.
+- Updated TerrainControl to v2.8.3_b182.
+- Updated Thirst to v2.7.4.
+- Updated WorldBorder to v1.8.7.
+- Updated WorldEdit to v6.1.9_b3719.
+- Updated WorldEditSelectionVisualizer to v1.4.8.
+- Updated WorldGuard to v6.2.2_b1710.
+- Updated zEnchantments to v1.5.0.
+- Updated zPermissions to v1.4.
+------------------------------------------------------
+v0.3.0 - World Design Review
+- Added The End to worlds Thirst is enabled on.
+- Changed no-op-permissions: to true in craftbook config.
+- Changed Thirst to only restore to 50% after death.
+- Changed spawn-protection to 45 (server.properties).
+- Changed WorldBorder of Krynn to 4000.
+- Completed major world generation (TerrainControl) update.
+- Created loot tables for treasure chests.
+- Decreased mob-spawn-range from 4 to 3 (spigot.yml).
+- Disabled all update checks (BookRules, CraftBook, HolographicDisplays, LightAPI, PetMaster, ProtocolLib, Updater).
+- Enabled ShinyItems & LightAPI.
+- Fixed Cooked Rabbit recipe in WurmBBQ.
+- Fixed the list of blocks that could be used for chairs to include all stairs (CraftBook).
+- Increased death chest expiration from 15 to 30 minutes.
+- Increased moved-wrongly-threshold from 0.0625 to 0.0825 (spigot.yml).
+- Increased spawn-limits:monsters: from 70 to 80 (bukkit.yml).
+- Installed Bags v2.0.0.
+- Installed CompassNavigator v1.6.0.
+- Installed Disease v2.6.1.
+- Installed ExtraHardMode v3.8.9.
+- Installed FastCraft+ v0.26.4.
+- Installed NeedToSleep v2.8.
+- Installed SmokingPipes v1.3.
+- Installed Zenchantments v1.5.0rc1.
+- Removed SecretChests.
+- Removed PercentSleep.
+- Set world border of Krynn_nether to 1000.
+- Tweaked tablist configuratoin.
+- Updated ConsoleSpamFix to v1.3.0.
+- Updated ConsoleSpamFix config for new plugins.
+- Updated Craftbook to v3.9u12.
+- Updated DokuCraft Light to v1.11 (server.properties).
+- Updated EditableSign to v2.4.1.
+- Updated LightAPI to v3.2.4.
+- Updated PermissionsGroupings.yml for new plugins.
+- Updated PetMaster to v1.4.0.
+- Updated PickUpArrows to v3.0.11.
+- Updated PickUpSpawners to 2.8.
+- Updated ProtocolLib to v4.2.1.
+- Updated SavageDeathChest to v1.7.0-beta3.
+- Updated ShinyItems to v1.6.1.
+- Updated Spigot to v1.11.2.
+- Updated Tablist to v1.3.1.11.
+- Updated TerrainControl to b169.
+- Updated WorldEdit to v6.1.7.
+- Updated WorldEditSelectionVisualizer to v1.4.4.
+- Updated WurmBarbecue to v2.5.1.
+- Set allow-end to true in bukkit.yml.
+v0.2.1 - Bug Fix/MC Version Update
+- Added coordinates and direction to tablist and re-arranged things a bit.
+- Added server resource pack to server.properties.
+- Adjusted block patterns in ConsoleSpamFix.
+- Changed gamerule keepInventory to false (/gamerule keepInventory false).
+- Chaged moved-wrongly-threshold back to default (0.0625) in spigot.yml.
+- Completed major reconfiguring of secret chests.
+- Disabled collecting of creative mode arrows in PickupArrows.
+- Disabled ShinyItems and LightAPI until they are updated.
+- Fixed CommandBook, CraftBook and WorldEdit permissions.
+- Increased moved-too-quickly-multiplier from 12 to 13 in spigot.yml.
+- Increased spawn rate of monsters in bukkit.yml.
+- Installed KeepItems (Allows players to keep XP on death).
+- Installed SavageDeathChest (Places your items in a chest when you die).
+- Improved BBQ recipes.
+- Regenerated undeveloped land and update Dynmap.
+- Removed ForceResourcePack.
+- Removed Gravestones.
+- Removed SwitchableArmor.
+- Renamed dynmap, HorseShortcuts and Drops jar to reflect their true names.
+- Turned off name change in ActionHealth config.
+- Updated FurnaceNotify to v8.0.
+- Updated Holographic Displays to v2.2.3.
+- Updated permissionsGroupings.yml.
+- Updated PickUpArrows to v3.0.10.
+- Updated ProtocolLib to b333.
+- Updated Spigot to v1.11.
+- Updated Tablist to v.1.0.3.11.
+- Updated TerrainControl to b167.
+- Updated Thirst to v2.4.1.
+- Updated WorldEdit to b3646.
+v0.2.0 - Item/Mech/UI Update
+- Arrows will despawn faster (Spigot.yml).
+- Changed gamerule keepInventory to true (/gamerule keepInventory true).
+- Changed name of Spigot permissions (bukkit.yml).
+- Configured permissionsGroupings.yml.
+- Fixed fall damage (server jar file).
+- Increased mob spawn range (Spigot.yml).
+- Installed ActionHealth (Displays entities health in the action bar).
+- Installed ArmorStandGUI (Armor stands have a GUI to change items, size, positioning, etc.).
+- Installed Auto_Pickup (Items automatically go into your inventory instead of dropping).
+- Installed BookRules (Gives out books on join).
+- Installed Bookshelves (Bookshelves can now store books).
+- Installed ChestOverflow (Left-Click storage items to organize).
+- Installed CommandBook (Basic Command Suite).
+- Installed CraftBook (Lots of interesting mechanics, see http://wiki.sk89q.com/wiki/CraftBook/Usage ).
+- Installed DurabilityStats (Players will get a warning when their items are low on durability).
+- Installed EditableSign (Edit placed signs by sneaking and right-clicking them).
+- Installed ForceResourcePack (Force players to accept the world resource pack).
+- Installed FurnaceNotify (Displays progress of targetted furnace in the action bar).
+- Installed Gravestones (Creates gravestones to save your items when you die).
+- Installed Harvest (Harvest fully-grown crops and replant the dropped seeds by right-clicking).
+- Installed HealthReset (Health is replenished by sleeping in a bed).
+- Installed MaintenanceMode (Allows the server to be locked so only admins can log in).
+- Installed NotchApples (Adds the recipe to craft a Notch Apple as in the mobile version).
+- Installed PercentSleep (Night will be skipped as long as 75% of the players on the server are in bed).
+- Installed PetMaster & HolographicDisplays (Right-click to view a pet's owner, /petm setowner %player% to give a pet away).
+- Installed PickUpArrows (Players can now pick up arrows from any source *except burning and spectral*).
+- Installed PickupSpawners (Allows players to pick up mob spawners).
+- Installed SaddleMeUp (Right-click a horse with horse equipment in hand to equip it).
+- Installed SecretChests (Generates chest with loot randomly in the world).
+- Installed ServerListPlus (Improved & customized server display in the clients server list).
+- Installed ShinyItems & LightAPI (Torches, redstone torches, glowstone and lava buckets generate light when held).
+- Installed SwitchableArmor (Right-click with armor in hand to equip it).
+- Installed Tablist (Allows customization of the tab display).
+- Installed Thirst (Adds thirst mechanic to the server).
+- Installed Trade (Adds a secure person-to-person trading GUI).
+- Installed WurmBarbecue (Create a barbecue to cook food by placing a stone half slab or wooden/iron trapdoor above a fire).
+- Installed zPermissions.
+- Regenerated undeveloped land and update Dynmap.
+- The Nether is now enabled (server properties file).
+v0.1.0 - Alpha Test
+- Configured bukkit.yml.
+- Configured server.properties.
+- Configured spigot.yml.
+- Installed ConsoleSpamFix (Cleans up verbose console messages).
+- Installed Dense Ores (Chance to get extra ores when mining).
+- Installed Dynmap (Google Maps-like web map of the server).
+- Installed ProtocolLib (A requirement for many plugins).
+- Installed WindySkies (Plays a swoosh sounds randomly when above a certain altitude).
+- Installed WorldBorder (Limits the size of each world).
+- Installed WorldEdit & WorldEditSelectionVisualizer (Administrative toolset).
+- World creation (Installed and configured Terrain Control & BO3Tools).
+******Credits******
+Lead Designer - Shenlong55
+Lead Tester - GabriellaMorrel
+Alpha Testers - Defkab, Dr_Icey, KingSnow96

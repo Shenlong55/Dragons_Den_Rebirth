@@ -1,0 +1,37 @@
+Release notes
+World reset procedure
+enable snow in craftbook
+Replace CommandBook Functionality (time lock, starter kit, AFK)
+Replace ChestOverflow (left-click to sort storage items)
+Replace Harvest (right-click to harvest crops)
+Replace NoFallbackAliases
+Replace RealisticSwimming
+Replace SmartGiants
+Replace Tablist
+Fix Craftbook config
+Replace loot tables/random chests
+Create custom recipe for NotchApple
+Examine new petmaster options (actionBarMessage, ShowHealth, displaToOwner, freePetPrice, displayX)
+Check ShinyItems config enchants option.
+Investigate spigot.yml option send-namespaced.
+Re-enable Craftbook pipes and ICs.
+Re-enable worldGuard support in Disease and Thirst configs.
+
+https://clients.mcprohosting.com/knowledgebase/22/Recommended-Minecraft-Plugins.html
+
+denseores config, worldborder config, protocolLib lastupdate
+
+Disabled plugin permissions
+
+dragonsden.testing.help:
+    zenchantments.command.info: true
+    zenchantments.command.list: true
+    
+    
+    
+CURRENT:
+Command to select peronsal plots
+Make temples usable
+Create plugin template
+Create Github repositories for data pack and resource pack
+Kicked for flying

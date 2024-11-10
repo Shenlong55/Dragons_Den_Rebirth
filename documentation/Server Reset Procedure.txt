@@ -1,0 +1,29 @@
+Delete files from /worlds/{$world}/playerdata
+Delete files from /worlds/{$world}/advancements
+Delete files from /worlds/{$world}/stats
+
+Delete /plugins/AutoCrafters/data.yml
+Delete /plugins/Bookshelves/shelves.json
+Delete /plugins/ChatControl/data.db
+Delete files from /plugins/CommandBook/sessions/CraftPlayer
+Delete /plugins/CommandHelper/persistence.db
+Delete files from /plugins/CompassNavigator/Player Data
+Delete /plugins/CraftBook/persistence.yml
+Delete files from /plugins/Disease/players
+Delete files from plugins/dynmap/web/tiles
+Delete files from /plugins/ExtraHardMode/persistence
+Delete /plugins/FurnaceNotify/data.dat
+Delete files from /plugins/FurnaceNotify/(User)data
+Delete files from /plugins/NeedToSleep/UserData
+Delete /plugins/PadLock/padlock.dat
+Delete /plugins/SavageDeathChest/deathchests.db
+Delete /plugins/ShinyItems/toggled_players.yml
+Delete files from /plugins/SmokingPipes/players
+Delete /plugins/SuperVanish/playerdata.yml
+Delete files from /plugins/Thirst/players
+Delete files from /plugins/Trade/players
+Delete /plugins/ZHorse/zhorse.db
+
+Remove borders in plugins/WorldBorder/config.yml (?)
+Clean up regions in plugins/WorldGuard/worlds/{world_name}/regions.yml
+Clean up permissions in plugins/zPermissions/data.yml

@@ -1,0 +1,5 @@
+World Generation Plan
+1. Primary World (Krynn)
+    a. Use smallest world size that works for the amount of current players and generate new terrain as needed with new content.
+2. Second World
+    a. Regenerate world every ~90 days with random seed.
